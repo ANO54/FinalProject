@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgpic"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/currentSpeedId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_gravity="center"
+        android:text="- -"
+        android:textColor="#24C10C"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tenToThirtyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="From 10m/Hr to 30m/Hr"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tenToThirtyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="19dp"
+        android:layout_gravity="center"
+        android:text="- -"
+        android:textColor="#24C10C"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Seconds"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/thirtyToTenLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="200dp"
+        android:text="30m/Hr to 10m/Hr"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/thirtyToTenId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- -"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#24C10C"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="m/Hr"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
